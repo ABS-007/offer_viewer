@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553666661056",
+    "project_id": "appday-3a145",
+    "storage_bucket": "appday-3a145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553666661056:android:b657da9cd00bf8f2b9fb25",
+        "android_client_info": {
+          "package_name": "com.ashish.appday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553666661056-134rritr6qu0o6vhsqj7af9ep9rpbvth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc--pCR8hHt_66-EfG5sR7DdaIuycXdK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553666661056-134rritr6qu0o6vhsqj7af9ep9rpbvth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
