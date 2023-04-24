@@ -111,7 +111,14 @@ class _HomePageState extends State<HomePage>
                 ),
               ),
               text: 'All Offers'),
-          Tab(icon: Icon(Icons.work), text: 'Gifts'),
+          Tab(icon: CircleAvatar(
+              backgroundColor: Colors.blue,
+              radius: 12,
+              child: Image.asset(
+                "assets/icons/gift-box.png",
+                color: Colors.white,
+              ),
+            ), text: 'Gifts'),
           Tab(
               icon: CircleAvatar(
                 backgroundColor: Colors.blue,
@@ -123,14 +130,7 @@ class _HomePageState extends State<HomePage>
               ),
               text: 'Upcoming'),
           Tab(
-            icon: CircleAvatar(
-              backgroundColor: Colors.blue,
-              radius: 12,
-              child: Image.asset(
-                "assets/icons/gift-box.png",
-                color: Colors.white,
-              ),
-            ),
+            icon: Icon(Icons.check_circle_outline),
             text: "My Offers",
           )
         ],
